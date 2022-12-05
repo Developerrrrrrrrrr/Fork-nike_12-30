@@ -16,3 +16,95 @@ body {
   width: 100%;
   padding: 0 15px;
 }
+
+.nike__shop {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nike__shop-sneakers {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 441px;
+  background: #FFFFFF;
+  border: 1px solid #A0A0A0;
+  margin-bottom: 40px;
+}
+
+.sneakers__title {
+  font-size: 22px;
+  line-height: 18px;
+  color: #000000;
+  /* text-align: center; */
+  margin: 15px 15px 10px 15px;
+}
+
+.sneakers__text {
+  font-size: 16px;
+  line-height: 19px;
+  color: #6A6A6A;
+  margin: 0 15px 10px 15px;
+  text-align: left;
+}
+
+.sneakers__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sneakers__img {
+  width: 328px;
+  height: 260px;
+}
+
+.sneakers__btn {
+  width: 223px;
+  height: 48px;
+  background: #DFC900;
+  border-radius: 3px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #050505;
+  margin-left: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.sneakers__text2 {
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 10px 15px 25px 0;
+  text-align: center;
+}
+
+.sneakers__btn:hover {
+  background: #000;
+  color: white;
+}
+
+.motivation {
+  background-image: url(../image/butsi.png);
+  height: 557px;
+  
+}
+
+.box {
+  display: flex;
+}
+
+.box__title {
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 400px;
+  background: rgba(186, 186, 186, 0.5);
+  backdrop-filter: blur(7.5px);
+  /* margin: 20px 0 20px 0 ; */
+  
+}
